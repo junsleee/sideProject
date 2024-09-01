@@ -1,0 +1,2 @@
+# sideProject
+honing down fundamentals 

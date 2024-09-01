@@ -1,0 +1,11 @@
+C:\Users\Jun\source\repos\Pokemon\Pokemon\bin\Debug\net8.0\Pokemon.deps.json
+C:\Users\Jun\source\repos\Pokemon\Pokemon\bin\Debug\net8.0\Pokemon.dll
+C:\Users\Jun\source\repos\Pokemon\Pokemon\bin\Debug\net8.0\Pokemon.pdb
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.AssemblyInfoInputs.cache
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.AssemblyInfo.cs
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.dll
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\refint\Pokemon.dll
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.pdb
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\ref\Pokemon.dll

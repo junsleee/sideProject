@@ -46,5 +46,16 @@ namespace Pokemon.PokemonLibrary.Tests
 
             Assert.AreEqual(6, bulbasaur.Level);
         }
+
+        [TestMethod()]
+        public void AttackTest()
+        {
+            Pokemon bulbasaur = new Pokemon("Bulbasaur", 5, "Grass");
+            Pokemon charmander = new Pokemon("Charmander", 5, "Fire");
+
+            bulbasaur.Attack(charmander);
+            
+            Assert.AreEqual(25, charmander._healthPoint);
+        }
     }
 }

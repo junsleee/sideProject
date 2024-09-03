@@ -2,10 +2,10 @@
 {
     public class Pokemon
     {
-        //private fields
+        //private fields of basic stats of a pokemon
         private string _name = "";
         private int _level;
-        private int _healthPoint;
+        public int _healthPoint { get; private set; };
         private int _experiencePoint;
         private string _type = "";
         private int _attack;
@@ -57,10 +57,10 @@
             _name = name;
             _level = level;
             _type = type;
-            _healthPoint = 100;
+            _healthPoint = 30;
             _experiencePoint = 0;
             _attack = 10;
-            _defense = 8;
+            _defense = 5;
         }
         //methods
         public void GainExperience(int amount)
@@ -78,6 +78,10 @@
             _attack += 3;
             _defense += 1;
             _healthPoint += 10;
+        }
+        public void Attack(Pokemon)
+        {
+            Pokemon._healthPoint -= _attack + _defense;
         }
     }
 }

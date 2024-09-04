@@ -1,15 +1,17 @@
-﻿namespace Pokemon.PokemonLibrary
+﻿using System.ComponentModel;
+
+namespace Pokemon.PokemonLibrary
 {
     public class Pokemon
     {
         //private fields of basic stats of a pokemon
         private string _name = "";
         private int _level;
-        public int _healthPoint { get; private set; };
-        private int _experiencePoint;
-        private string _type = "";
-        private int _attack;
-        private int _defense;
+        private int _healthPoint = 30;
+        private int _experiencePoint = 0;
+        private string _type;
+        private int _attack = 10;
+        private int _defense = 8;
 
         //properties
         public string Name
@@ -57,11 +59,8 @@
             _name = name;
             _level = level;
             _type = type;
-            _healthPoint = 30;
-            _experiencePoint = 0;
-            _attack = 10;
-            _defense = 5;
         }
+
         //methods
         public void GainExperience(int amount)
         {
@@ -79,9 +78,13 @@
             _defense += 1;
             _healthPoint += 10;
         }
-        public void Attack(Pokemon)
+        public void Attack(Pokemon target)
         {
-            Pokemon._healthPoint -= _attack + _defense;
+            int damage = _attack - target._defense;
+            if (damage <= 0) damage = 1;
+            target._healthPoint -= damage;
+
+            Console.WriteLine($"{_name} attacked {target._name} and dealt {damage} damage.");
         }
     }
 }

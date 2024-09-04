@@ -22,21 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 268,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PokemonTests.cs",
               "DocumentMoniker": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
               "RelativeDocumentMoniker": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "RelativeToolTip": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAEwCYAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs*",
+              "RelativeToolTip": "PokemonTests\\PokemonLibrary\\PokemonTests.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAEwC4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T22:54:22.365Z",
               "EditorCaption": ""
@@ -51,7 +47,8 @@
               "RelativeToolTip": "Pokemon\\PokemonLibrary\\Pokemon.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAwwEkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:35:14.261Z"
+              "WhenOpened": "2024-09-01T18:35:14.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,7 +60,8 @@
               "RelativeToolTip": "Pokemon\\PokemonLibrary\\PokemonTypes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:44:13.768Z"
+              "WhenOpened": "2024-09-01T20:44:13.768Z",
+              "EditorCaption": ""
             }
           ]
         }

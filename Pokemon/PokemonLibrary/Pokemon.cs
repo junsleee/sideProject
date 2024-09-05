@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Security.Cryptography;
 
 namespace Pokemon.PokemonLibrary
 {
@@ -12,6 +13,7 @@ namespace Pokemon.PokemonLibrary
         private string _type;
         private int _attack = 10;
         private int _defense = 8;
+        private bool _isShiny;
 
         //properties
         public string Name
@@ -32,6 +34,10 @@ namespace Pokemon.PokemonLibrary
         public int HealthPoint
         {
             get => _healthPoint;
+        }
+        public bool IsShiny
+        {
+            get => _isShiny;
         }
         public int Level
         {
@@ -59,14 +65,20 @@ namespace Pokemon.PokemonLibrary
         }
 
         //constructor
-        public Pokemon(string name, int level = 1, string type = "Fire")
+        public Pokemon(string name, int level = 1, string type = "Fire", bool isShiny = false)
         {
             _name = name;
             _level = level;
             _type = type;
+            _isShiny = DetermineIfShiny();
         }
 
         //methods
+        private bool DetermineIfSHiny()
+        {
+            Random random = new Random();
+            return random.Next(1, 8193) == 1;
+        }
         public void GainExperience(int amount)
         {
             _experiencePoint += amount;

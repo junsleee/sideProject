@@ -55,7 +55,7 @@ namespace Pokemon.PokemonLibrary.Tests
 
             bulbasaur.Attack(charmander);
             
-            Assert.AreEqual(25, charmander._healthPoint);
+            Assert.AreEqual(28, charmander.HealthPoint);
         }
     }
 }

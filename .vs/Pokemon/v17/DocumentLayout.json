@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jun\\source\\repos\\Pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}|Pokemon\\Pokemon.csproj|c:\\users\\jun\\source\\repos\\pokemon\\pokemon\\pokemonlibrary\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\pokemonlibrary\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0FF84C0D-5CE7-4F83-A84D-C0D7BEE95824}|PokemonTests\\PokemonTests.csproj|c:\\users\\jun\\source\\repos\\pokemon\\pokemontests\\pokemonlibrary\\pokemontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FF84C0D-5CE7-4F83-A84D-C0D7BEE95824}|PokemonTests\\PokemonTests.csproj|solutionrelative:pokemontests\\pokemonlibrary\\pokemontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}|Pokemon\\Pokemon.csproj|c:\\users\\jun\\source\\repos\\pokemon\\pokemon\\pokemonlibrary\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\pokemonlibrary\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}|Pokemon\\Pokemon.csproj|c:\\users\\jun\\source\\repos\\pokemon\\pokemon\\pokemonlibrary\\pokemontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 268,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PokemonTests.cs",
               "DocumentMoniker": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
               "RelativeDocumentMoniker": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "RelativeToolTip": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCwAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs*",
+              "RelativeToolTip": "PokemonTests\\PokemonLibrary\\PokemonTests.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T22:54:22.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "C:\\Users\\Jun\\source\\repos\\Pokemon\\Pokemon\\PokemonLibrary\\Pokemon.cs",
               "RelativeDocumentMoniker": "Pokemon\\PokemonLibrary\\Pokemon.cs",
               "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\Pokemon\\PokemonLibrary\\Pokemon.cs",
               "RelativeToolTip": "Pokemon\\PokemonLibrary\\Pokemon.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwCEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T18:35:14.261Z",
               "EditorCaption": ""
@@ -61,10 +61,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T20:44:13.768Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

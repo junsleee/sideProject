@@ -9,3 +9,4 @@ C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.dll
 C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\refint\Pokemon.dll
 C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.pdb
 C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\ref\Pokemon.dll
+C:\Users\Jun\source\repos\Pokemon\Pokemon\obj\Debug\net8.0\Pokemon.sourcelink.json

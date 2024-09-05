@@ -28,6 +28,11 @@ namespace Pokemon.PokemonLibrary
                 _name = value;
             }
         }
+
+        public int HealthPoint
+        {
+            get => _healthPoint;
+        }
         public int Level
         {
             get => _level;

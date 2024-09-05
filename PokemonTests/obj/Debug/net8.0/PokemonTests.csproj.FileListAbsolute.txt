@@ -112,3 +112,4 @@ C:\Users\Jun\source\repos\Pokemon\PokemonTests\obj\Debug\net8.0\refint\PokemonTe
 C:\Users\Jun\source\repos\Pokemon\PokemonTests\obj\Debug\net8.0\PokemonTests.pdb
 C:\Users\Jun\source\repos\Pokemon\PokemonTests\obj\Debug\net8.0\PokemonTests.genruntimeconfig.cache
 C:\Users\Jun\source\repos\Pokemon\PokemonTests\obj\Debug\net8.0\ref\PokemonTests.dll
+C:\Users\Jun\source\repos\Pokemon\PokemonTests\obj\Debug\net8.0\PokemonTests.sourcelink.json

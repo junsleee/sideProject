@@ -81,19 +81,27 @@ namespace Pokemon.PokemonLibrary
         }
         public void GainExperience(int amount)
         {
+            Console.WriteLine($"{_name} gained {amount} EXP!");
+
             _experiencePoint += amount;
+
             if (_experiencePoint >= 100)
             {
                 LevelUp();
+
             }
+
+            Console.WriteLine($"{_name}'s EXP is now {_experiencePoint}.");
         }
         public void LevelUp()
         {
             _level++;
-            _experiencePoint = 0;
+            _experiencePoint -= 100;
             _attack += 3;
             _defense += 1;
             _healthPoint += 10;
+
+            Console.WriteLine($"{_name} leveled up to {_level}!");
         }
         public void Attack(Pokemon target)
         {

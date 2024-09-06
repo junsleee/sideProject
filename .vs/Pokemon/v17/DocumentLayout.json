@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 268,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PokemonTests.cs",
-              "DocumentMoniker": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "RelativeDocumentMoniker": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "RelativeToolTip": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T22:54:22.365Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,9 +32,23 @@
               "RelativeDocumentMoniker": "Pokemon\\PokemonLibrary\\Pokemon.cs",
               "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\Pokemon\\PokemonLibrary\\Pokemon.cs",
               "RelativeToolTip": "Pokemon\\PokemonLibrary\\Pokemon.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwEwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T18:35:14.261Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PokemonTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs",
+              "RelativeDocumentMoniker": "PokemonTests\\PokemonLibrary\\PokemonTests.cs",
+              "ToolTip": "C:\\Users\\Jun\\source\\repos\\Pokemon\\PokemonTests\\PokemonLibrary\\PokemonTests.cs*",
+              "RelativeToolTip": "PokemonTests\\PokemonLibrary\\PokemonTests.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T22:54:22.365Z",
               "EditorCaption": ""
             },
             {

@@ -38,6 +38,17 @@ namespace Pokemon.PokemonLibrary.Tests
         }
 
         [TestMethod()]
+        public void GainExperienceTest2()
+        {
+            Pokemon bulbasaur = new Pokemon("Bulbasaur", 6, "Grass");
+
+            bulbasaur.GainExperience(164);
+
+            Assert.AreEqual(7, bulbasaur.Level);
+            Assert.AreEqual(64, bulbasaur.ExperiencePoint);
+        }
+
+        [TestMethod()]
         public void LevelUpTest()
         {
             Pokemon bulbasaur = new Pokemon("Bulbasaur", 5, "Grass");

@@ -74,7 +74,7 @@ namespace Pokemon.PokemonLibrary
         }
 
         //methods
-        private bool DetermineIfSHiny()
+        private bool DetermineIfShiny()
         {
             Random random = new Random();
             return random.Next(1, 8193) == 1;

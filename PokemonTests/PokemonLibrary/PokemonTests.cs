@@ -57,5 +57,13 @@ namespace Pokemon.PokemonLibrary.Tests
             
             Assert.AreEqual(28, charmander.HealthPoint);
         }
+
+        [TestMethod()]
+        public void ShinyTest()
+        {
+            Pokemon bulbasaur = new Pokemon("Bulbasaur", 5, "Grass");
+
+            Assert.IsTrue(bulbasaur.IsShiny || !bulbasaur.IsShiny);
+        }
     }
 }

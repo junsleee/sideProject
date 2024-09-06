@@ -24,6 +24,39 @@ namespace Pokemon.PokemonLibrary.Tests
             Assert.AreEqual("Bulbasaur", name);
             Assert.AreEqual(5, lvl);
             Assert.AreEqual("Grass", typing);
+            Assert.IsTrue(bulbasaur.IsShiny || !bulbasaur.IsShiny);
+        }
+
+        [TestMethod()]
+        public void PokemonTest2()
+        {
+            //arrange
+            Pokemon charmander = new Pokemon("Charmander", 5, "Fire");
+            //act
+            string name = "Charmander";
+            int lvl = 5;
+            string typing = "Fire";
+            //assert
+            Assert.AreEqual("Charmander", name);
+            Assert.AreEqual(5, lvl);
+            Assert.AreEqual("Fire", typing);
+            Assert.IsTrue(charmander.IsShiny || !charmander.IsShiny);
+        }
+
+        [TestMethod()]
+        public void PokemonTest3()
+        {
+            //arrange
+            Pokemon squirtle = new Pokemon("Squirtle", 5, "Water");
+            //act
+            string name = "Squirtle";
+            int lvl = 5;
+            string typing = "Water";
+            //assert
+            Assert.AreEqual("Squirtle", name);
+            Assert.AreEqual(5, lvl);
+            Assert.AreEqual("Water", typing);
+            Assert.IsTrue(squirtle.IsShiny || !squirtle.IsShiny);
         }
 
         [TestMethod()]

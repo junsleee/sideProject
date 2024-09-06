@@ -71,6 +71,7 @@ namespace Pokemon.PokemonLibrary
             _level = level;
             _type = type;
             _isShiny = DetermineIfShiny();
+            if (_isShiny) Console.WriteLine($"{_name} is shiny!");
         }
 
         //methods
@@ -88,7 +89,6 @@ namespace Pokemon.PokemonLibrary
             if (_experiencePoint >= 100)
             {
                 LevelUp();
-
             }
 
             Console.WriteLine($"{_name}'s EXP is now {_experiencePoint}.");

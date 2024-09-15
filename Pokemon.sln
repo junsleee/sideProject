@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon", "Pokemon\Pokemon.csproj", "{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon", "Pokemon\Pokemon.csproj", "{9BE1CA68-22A1-4882-A0BE-8030BC27F9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTests", "PokemonTests\PokemonTests.csproj", "{0FF84C0D-5CE7-4F83-A84D-C0D7BEE95824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonTests", "PokemonTests\PokemonTests.csproj", "{0FF84C0D-5CE7-4F83-A84D-C0D7BEE95824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

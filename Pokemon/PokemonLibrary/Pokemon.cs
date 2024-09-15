@@ -10,7 +10,7 @@ namespace Pokemon.PokemonLibrary
         private int _level;
         private int _healthPoint = 30;
         private int _experiencePoint = 0;
-        private string _type;
+        private PokemonType _type;
         private int _attack = 10;
         private int _defense = 8;
         private bool _isShiny;
@@ -105,7 +105,8 @@ namespace Pokemon.PokemonLibrary
         }
         public void Attack(Pokemon target)
         {
-            int damage = _attack - target._defense;
+            double effectiveness = TypeEffectiveness.GetEffectiveness(this._type, target._type);
+            int damage = (int)((_attack - target._defense) * effectiveness);
             if (damage <= 0) damage = 1;
             target._healthPoint -= damage;
 

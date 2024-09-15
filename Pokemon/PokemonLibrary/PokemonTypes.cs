@@ -15,6 +15,7 @@ namespace Pokemon.PokemonLibrary
     }
     public static class TypeEffectiveness
     {
+        //readonly as type effectiveness matrix will not change once implemented
         public static readonly Dictionary<(PokemonType, PokemonType), double> EffectivenessMatrix = new Dictionary<(PokemonType, PokemonType), double>
         {
             {(PokemonType.Fire, PokemonType.Grass), 2.0 },
